@@ -1,6 +1,6 @@
 {
   "name": "uploda-img-cloud-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": "https://github.com/rspack-contrib/rsbuild-plugin-template",
   "license": "MIT",
   "type": "module",
@@ -52,5 +52,8 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "cos-nodejs-sdk-v5": "^2.14.7"
   }
 }
