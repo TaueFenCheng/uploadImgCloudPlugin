@@ -65,7 +65,6 @@ export const uploadImgCloudPlugin = (
     api.transform(
       { test: /\.(png|jpe?g|gif|svg|webp)$/ },
       (info: TransformContext) => {
-        console.log('info', info);
         // 记录原始路径，用于后续替换
         const originalPath = info.resourcePath;
         // 将原始路径添加到映射中，初始值为空字符串，后续会在processAssets阶段更新为CDN URL
@@ -116,7 +115,7 @@ export const uploadImgCloudPlugin = (
             try {
               // 获取资源内容
               const content = asset.source();
-              console.log('content', content);
+              console.log('content\n', content);
               // return
               if (!content) continue;
 
