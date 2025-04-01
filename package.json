@@ -1,9 +1,12 @@
 {
-  "name": "rsbuild-plugin-example",
-  "version": "0.0.0",
+  "name": "uploda-img-cloud-plugin",
+  "version": "0.0.1",
   "repository": "https://github.com/rspack-contrib/rsbuild-plugin-template",
   "license": "MIT",
   "type": "module",
+  "author": {
+    "name": "tangtaue"
+  },
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
